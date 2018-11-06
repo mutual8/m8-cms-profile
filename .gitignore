@@ -1,0 +1,22 @@
+# Private.
+/.env
+/.env.local
+
+# IDE.
+/.idea/
+/.vscode/
+
+# JS.
+/node_modules
+
+# PHP.
+composer.lock
+/vendor
+/web
+
+# Etcetera.
+/libraries
+/tests/reports
+.DS_Store
+/.tmp/
+*.tmp
