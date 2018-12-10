@@ -1,0 +1,12 @@
+name: M8 Core
+type: module
+description: 'Provides shared config and code for Mutual 8 sites.'
+version: VERSION
+package: M8
+project: m8
+required: true
+core: 8.x
+dependencies:
+  - drupal:field
+  - drupal:user
+  - m8:m8_api

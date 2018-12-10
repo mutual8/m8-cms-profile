@@ -1,0 +1,9 @@
+name: M8 API
+type: module
+description: 'Provides JSON API customization for Mutual 8 sites.'
+version: VERSION
+package: M8
+project: m8
+core: 8.x
+dependencies:
+  - jsonapi:jsonapi
