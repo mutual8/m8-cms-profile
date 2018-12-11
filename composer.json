@@ -9,6 +9,11 @@
       "dev-master": "1.0.x-dev"
     }
   },
+  "replace": {
+    "drupal/m8": "self.version",
+    "drupal/m8_api": "self.version",
+    "drupal/m8_core": "self.version"
+  },
   "require": {
     "drupal/admin_toolbar": "^1.24",
     "drupal/core": "^8.6",
